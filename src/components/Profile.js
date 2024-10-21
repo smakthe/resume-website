@@ -41,7 +41,7 @@ const Profile = () => (
   <div className="profile">
     <ProfileDetails>
       <Name>Somak Chakraborty</Name>
-      <Title><p>Senior Software Engineer</p></Title>
+      <Title><h4>Senior Software Engineer</h4></Title>
       <Description>
         <p>
           I'm a forward-thinking computer science professional with a robust skill set spanning from full-stack web development to proficiency in cutting-edge technologies like AWS and CI/CD, DevOps.

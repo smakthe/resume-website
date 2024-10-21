@@ -15,11 +15,11 @@
   padding: 20px;
 }
 
-.profile p:nth-child(0) {
+.profile h4 {
   text-align: left;
 }
 
-.profile p:nth-child(1) {
+.profile p {
   text-align: justify;
 }
 
