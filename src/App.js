@@ -5,6 +5,7 @@ import Experience from './components/Experience';
 import Skills from './components/Skills';
 import Education from './components/Education';
 import Contact from './components/Contact';
+import Certifications from './components/Certifications';
 import './App.css';
 
 const App = () => (
@@ -14,8 +15,9 @@ const App = () => (
           <div className="left-column">
             <Profile />
             <Contact />
-            <Skills />
             <Education />
+            <Skills />
+            <Certifications />
           </div>
           <div className="right-column">
             <Experience />

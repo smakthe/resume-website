@@ -3,19 +3,43 @@ import styled from 'styled-components';
 
 const ExperienceContainer = styled.div`
   padding: 20px;
+
+  @media (max-width: 768px) {
+    padding: 10px;
+  }
 `;
 
 const Title = styled.h2`
   border-bottom: 2px solid #000;
   padding-bottom: 5px;
+
+  @media (max-width: 768px) {
+    font-size: 20px;
+  }
 `;
 
 const Job = styled.div`
   margin-bottom: 20px;
+
+  @media (max-width: 768px) {
+    margin-bottom: 15px;
+  }
 `;
 
 const JobTitle = styled.h3`
   margin: 0;
+
+  @media (max-width: 768px) {
+    font-size: 18px;
+  }
+`;
+
+const JobDescription = styled.ul`
+  margin: 10px 0 0 20px;
+
+  @media (max-width: 768px) {
+    margin: 10px 0 0 15px;
+  }
 `;
 
 const Company = styled.p`
@@ -26,10 +50,6 @@ const Company = styled.p`
 const JobPeriod = styled.p`
   margin: 5px 0;
   color: #666;
-`;
-
-const JobDescription = styled.ul`
-  margin: 10px 0 0 20px;
 `;
 
 const JobItem = styled.li`
@@ -53,7 +73,7 @@ const Experience = () => (
     <Job>
       <JobTitle>Software Engineer</JobTitle>
       <Company>Indium Software</Company>
-      <JobPeriod>05/2021 - 08/2022 (Full Time)</JobPeriod>
+      <JobPeriod>05/2021 - 11/2022 (Full Time)</JobPeriod>
       <JobDescription>
         <JobItem>Developed back-end features with Ruby on Rails.</JobItem>
         <JobItem>Integrated third-party services including Twilio and Crowdin.</JobItem>
@@ -63,7 +83,7 @@ const Experience = () => (
     <Job>
       <JobTitle>Sr. Ruby Developer</JobTitle>
       <Company>Decorpot</Company>
-      <JobPeriod>08/2020 - 04/2021 (Full Time)</JobPeriod>
+      <JobPeriod>05/2020 - 04/2021 (Full Time)</JobPeriod>
       <JobDescription>
         <JobItem>Development of a plugin for interior designers providing end-to-end interior solutions, including 3D designing, generating quotations, BOQs, 2D factory drawings, and realistic rendering in SketchUp using SketchUp Ruby API.</JobItem>
         <JobItem>Automated SketchUp tasks with Ruby scripts to improve speed and user experience.</JobItem>
@@ -73,7 +93,7 @@ const Experience = () => (
     <Job>
       <JobTitle>Software Engineer</JobTitle>
       <Company>CognitiveClouds</Company>
-      <JobPeriod>08/2019 - 04/2020 (Full Time)</JobPeriod>
+      <JobPeriod>05/2019 - 04/2020 (Full Time)</JobPeriod>
       <JobDescription>
         <JobItem>Worked on a blogging application on RoR creating admin panel for CRUD operation, implemented search functionality using elastic search and deployed using Capistrano.</JobItem>
         <JobItem>Worked on the backend for a salon application creating dashboard for users and implemented payment gateway using stripe.</JobItem>
@@ -85,7 +105,7 @@ const Experience = () => (
     <Job>
       <JobTitle>Software Engineer</JobTitle>
       <Company>Rently</Company>
-      <JobPeriod>08/2018 - 04/2019 (Full Time)</JobPeriod>
+      <JobPeriod>01/2018 - 04/2019 (Full Time)</JobPeriod>
       <JobDescription>
         <JobItem>Worked on the development of a Home automation system application in Ruby on Rails</JobItem>
         <JobItem>Learned and used docker and AWS services(SNS, IoT, Lambda, DynamoDB, SQS, Cognito).</JobItem>

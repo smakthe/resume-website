@@ -10,11 +10,27 @@ const ContactContainer = styled.div`
   padding: 20px;
   border-radius: 8px;
   text-align: left;
+
+  @media (max-width: 768px) {
+    padding: 10px;
+  }
 `;
 
 const Title = styled.h2`
   border-bottom: 2px solid #000;
   padding-bottom: 5px;
+
+  @media (max-width: 768px) {
+    font-size: 20px;
+  }
+`;
+
+const ContactText = styled.span`
+  font-size: 16px;
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
 `;
 
 const ContactInfo = styled.div`
@@ -28,9 +44,6 @@ const Icon = styled.span`
   font-size: 18px;
 `;
 
-const ContactText = styled.span`
-  font-size: 16px;
-`;
 
 const Contact = () => {
   return (
