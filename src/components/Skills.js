@@ -24,12 +24,13 @@ const Skills = () => (
   <SkillsContainer>
     <Title>Skills</Title>
     <SkillList>
-      <SkillItem><strong>Languages:</strong> Ruby, Python, C, C++, Java, JavaScript, HTML & CSS</SkillItem>
+      <SkillItem><strong>Languages:</strong> Ruby, JavaScript, Python, C, C++, Java, HTML & CSS</SkillItem>
       <SkillItem><strong>Relational Databases:</strong> MySQL, PostgreSQL</SkillItem>
       <SkillItem><strong>Non-relational Databases:</strong> MongoDB, Redis</SkillItem>
-      <SkillItem><strong>Frameworks and Libraries:</strong> Ruby on Rails, Node.js, Express.js</SkillItem>
-      <SkillItem><strong>AWS Technologies:</strong> DynamoDB, EC2, IoT, Lambda, S3, SNS, SQS</SkillItem>
-      <SkillItem><strong>CI/CD and Devops:</strong> Git, GitHub, GitHubCI, Docker, Kubernetes</SkillItem>
+      <SkillItem><strong>MVC Framework:</strong> Ruby on Rails</SkillItem>
+      <SkillItem><strong>Meta-Frameworks and Libraries:</strong> React.js, Node.js, Express.js, Next.js, Sveltte</SkillItem>
+      <SkillItem><strong>AWS Technologies:</strong> DynamoDB, EC2, IoT, Lambda, S3, SNS, SQS, Cognito</SkillItem>
+      <SkillItem><strong>CI/CD and Devops:</strong> Git, GitHub, GitHub Action, Docker, Kubernetes</SkillItem>
     </SkillList>
   </SkillsContainer>
 );
