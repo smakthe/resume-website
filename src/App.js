@@ -1,13 +1,12 @@
 import React, { useState, Suspense } from 'react';
 import GlobalStyles from './styles/GlobalStyles';
-import Experience from './components/Experience';
-import Skills from './components/Skills';
-import Education from './components/Education';
-import Contact from './components/Contact';
 import { ThemeProvider } from 'styled-components';
-import 'font-awesome/css/font-awesome.min.css';
 import './App.css';
 
+const Experience = React.lazy(() => import('./components/Experience'));
+const Skills = React.lazy(() => import('./components/Skills'));
+const Education = React.lazy(() => import('./components/Education'));
+const Contact = React.lazy(() => import('./components/Contact'));
 const Profile = React.lazy(() => import('./components/Profile'));
 const Certifications = React.lazy(() => import('./components/Certifications'));
 
@@ -47,7 +46,7 @@ const App = () => {
           alignItems: 'center',
         }}
       >
-        <i className={`fa ${theme === 'light' ? 'fa-sun' : 'fa-moon'}`} />
+        {theme === 'light' ? "🌙" : "☀️" }
       </button>
       <div className="App">
         <Suspense fallback={<div>Loading...</div>}>
