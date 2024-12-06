@@ -10,13 +10,13 @@ const Title = styled.h2`
   padding-bottom: 5px;
 `;
 
-const SkillList = styled.ul`
+const SkillList = styled.dl`
   list-style-type: none;
   padding: 0;
   margin-bottom: 20px;
 `;
 
-const SkillItem = styled.li`
+const SkillItem = styled.dt`
   margin-bottom: 10px;
 `;
 

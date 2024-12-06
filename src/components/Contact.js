@@ -47,23 +47,25 @@ const Icon = styled.span`
 
 const Contact = () => {
   return (
-    <ContactContainer>
-      <Title>Contact</Title>
-      <ContactInfo>
-        <Icon>📞</Icon>
-        <ContactText>+91-9163689800</ContactText>
-      </ContactInfo>
-      <ContactInfo>
-        <Icon>📧</Icon>
-        <ContactText>smtp.connectmak@outlook.com</ContactText>
-      </ContactInfo>
-      <ContactInfo>
-        <Icon>📍</Icon>
-        <ContactText>Bengaluru, KA, India</ContactText>
-      </ContactInfo>
-      <Icon><SocialIcon target="_blank" url="https://github.com/smakthe"/></Icon>
-      <Icon><SocialIcon target="_blank" url="https://www.linkedin.com/in/scmakra99"/></Icon>
-    </ContactContainer>
+    <footer>
+      <ContactContainer>
+        <Title>Contact</Title>
+        <ContactInfo>
+          <Icon>📞</Icon>
+          <ContactText>+91-9163689800</ContactText>
+        </ContactInfo>
+        <ContactInfo>
+          <Icon>📧</Icon>
+          <ContactText>smtp.connectmak@outlook.com</ContactText>
+        </ContactInfo>
+        <ContactInfo>
+          <Icon>📍</Icon>
+          <ContactText>Bengaluru, KA, India</ContactText>
+        </ContactInfo>
+        <Icon><SocialIcon target="_blank" url="https://github.com/smakthe"/></Icon>
+        <Icon><SocialIcon target="_blank" url="https://www.linkedin.com/in/scmakra99"/></Icon>
+      </ContactContainer>
+    </footer>
   );
 };
 

@@ -14,7 +14,6 @@ const ProfileDetails = styled.div`
 
 const Name = styled.h1`
   margin: 0;
-
   @media (max-width: 768px) {
     font-size: 22px;
   }
@@ -38,7 +37,7 @@ const Description = styled.p`
 `;
 
 const Profile = () => (
-  <div className="profile">
+  <header className="profile">
     <ProfileDetails>
       <Name>Somak Chakraborty</Name>
       <Title><h4>Senior Software Engineer</h4></Title>
@@ -52,7 +51,7 @@ const Profile = () => (
         </p>
       </Description>
     </ProfileDetails>
-  </div>
+  </header>
 );
 
 export default Profile;

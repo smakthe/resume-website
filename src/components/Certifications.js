@@ -1,15 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
+import { containerStyles } from '../styles/shared';
 
 const CertificationsContainer = styled.div`
-  background: #f0f0f0;
-  padding: 20px;
-  border-radius: 8px;
-  text-align: left;
-
-  @media (max-width: 768px) {
-    padding: 10px;
-  }
+  ${containerStyles}
 `;
 
 const Title = styled.h2`
@@ -27,7 +21,6 @@ const Title = styled.h2`
 const CertificationItem = styled.li`
   font-size: 18px;
   margin: 5px 0;
-
   @media (max-width: 768px) {
     font-size: 16px;
   }
@@ -45,8 +38,26 @@ const Certifications = () => {
       <Title>Certifications</Title>
       <div className="certification-list">
         <CertificationList>
-          <CertificationItem><a href="https://cutshort.io/certificate/6270">Cutshort Certified JavaScript Basic</a></CertificationItem>
-          <CertificationItem><a href="https://cutshort.io/certificate/6269">Cutshort Certified Ruby Basic</a></CertificationItem>
+          <CertificationItem>
+            <a 
+              href="https://cutshort.io/certificate/6270"
+              aria-label="Cutshort Certified JavaScript Basic"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Cutshort Certified JavaScript Basic
+            </a>
+          </CertificationItem>
+          <CertificationItem>
+            <a 
+              href="https://cutshort.io/certificate/6269"
+              aria-label="Cutshort Certified Ruby Basic"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Cutshort Certified Ruby Basic
+            </a>
+          </CertificationItem>
         </CertificationList>
       </div>
     </CertificationsContainer>
