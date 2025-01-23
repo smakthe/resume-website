@@ -73,7 +73,7 @@ const Experience = () => (
     <Job>
       <JobTitle>Software Engineer</JobTitle>
       <Company>Indium Software</Company>
-      <JobPeriod>05/2021 - 11/2022 (Full Time)</JobPeriod>
+      <JobPeriod>05/2021 - 08/2022 (Full Time)</JobPeriod>
       <JobDescription>
         <JobItem>Developed backend APIs for a web application with Ruby on Rails which was an online platform for teaching, evaluating and tracking progress of children with autism and down syndrome.</JobItem>
         <JobItem>Worked on integrating translation service using i18n internationalization in a React.js microservice.</JobItem>
@@ -84,7 +84,7 @@ const Experience = () => (
     <Job>
       <JobTitle>Sr. Ruby Developer</JobTitle>
       <Company>Decorpot</Company>
-      <JobPeriod>05/2020 - 04/2021 (Full Time)</JobPeriod>
+      <JobPeriod>08/2020 - 04/2021 (Full Time)</JobPeriod>
       <JobDescription>
         <JobItem>Development of a plugin for interior designers providing end-to-end interior solutions, including 3D designing, generating quotations, BOQs, working drawings, and realistic rendering in SketchUp using SketchUp Ruby API.</JobItem>
         <JobItem>Automated SketchUp tasks with Ruby scripts to improve speed and user experience.</JobItem>
