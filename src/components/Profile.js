@@ -37,11 +37,7 @@ const Profile = () => (
       <Title><h4>Senior Software Engineer</h4></Title>
       <Description>
         <p>
-          I'm a forward-thinking computer science professional with a robust skill set spanning from full-stack web development to proficiency in cutting-edge technologies like AWS and CI/CD, DevOps.
-          With 7.5 years of hands-on experience in SaaS companies, I have developed robust and scalable Rails applications by applying optimization techniques and adhering to S.O.L.I.D. design principles.
-          I also possess extensive experience in leveraging Amazon Web Services such as S3, EC2, Lambda, DynamoDB, SNS, SQS, Cognito etc for deployment, scaling, and management of web applications.
-          I have implemented CI/CD pipelines using tools like CircleCI and GitHub Actions to automate build, test, and deploy microservices, ensuring smooth and reliable product releases.
-          My DevOps experience includes working with Docker and Kubernetes for containerization and orchestration, enhancing application scalability and reliability.
+          I'm a computer science professional with 7 years of experience in building robust, scalable and fault-tollerant SaaS based applications with high throughput and low latency by designing efficient system and database architecture adhering to design principles and implementing necessary design patterns ensuring both performance and reliability. I have worked across multiple product-based as well as service-based organizations from different domains including apparel, home automation, finance, interior design etc. My primary tech stack has been Ruby on Rails but I also have experience with LAMP and MERN stack. I have worked with multiple SQL databases like MySQL and PostgreSQL with noSQL databases like MongoDB and Redis. I also have experience with cloud infrustucture like AWS S3, EC2, Lambda, DynamoDB etc. My CI/CD and devops skills include shell scripts, Github actions, nginx, Docker, Kubernetes, Airflow and Ansible.
         </p>
       </Description>
     </ProfileDetails>
