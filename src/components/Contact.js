@@ -1,19 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
-import { SocialIcon } from 'react-social-icons'
 import 'react-social-icons/github'
 import 'react-social-icons/linkedin'
+import { SocialIcon } from 'react-social-icons'
+import { containerStyles } from '../styles/shared';
+
 
 
 const ContactContainer = styled.div`
-  background: #f0f0f0;
-  padding: 20px;
-  border-radius: 8px;
-  text-align: left;
-
-  @media (max-width: 768px) {
-    padding: 10px;
-  }
+  ${containerStyles}
 `;
 
 const Title = styled.h2`

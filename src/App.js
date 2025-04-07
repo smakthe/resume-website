@@ -12,12 +12,12 @@ const Certifications = React.lazy(() => import('./components/Certifications'));
 
 const lightTheme = {
   background: '#fff',
-  textColor: '#333',
+  textColor: '#000',
 };
 
 const darkTheme = {
-  background: '#121212',
-  textColor: '#fff',
+  background: '#000',
+  textColor: '#808080',
 };
 
 const App = () => {

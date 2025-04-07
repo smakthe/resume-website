@@ -8,7 +8,6 @@ const CertificationsContainer = styled.div`
 
 const Title = styled.h2`
   font-size: 24px;
-  color: #000;
   border-bottom: 2px solid #000;
   padding-bottom: 5px;
   text-align: left;

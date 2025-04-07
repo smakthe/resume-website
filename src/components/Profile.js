@@ -1,15 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
+import { containerStyles } from '../styles/shared';
 
 const ProfileDetails = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 20px;
-
-  @media (max-width: 768px) {
-    padding: 10px;
-  }
+  ${containerStyles}
 `;
 
 const Name = styled.h1`

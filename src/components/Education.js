@@ -1,8 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
+import { containerStyles } from '../styles/shared';
+
 
 const EducationContainer = styled.div`
-  padding: 20px;
+  ${containerStyles}
 `;
 
 const Title = styled.h2`

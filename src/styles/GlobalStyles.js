@@ -8,7 +8,6 @@ const GlobalStyles = createGlobalStyle`
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     line-height: 1.6;
     margin: 0;
-    color: #333;
   }
   *, *::before, *::after {
     margin: 0;
