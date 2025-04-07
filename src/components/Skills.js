@@ -25,7 +25,7 @@ const Skills = () => (
   <SkillsContainer>
     <Title>Skills</Title>
     <SkillList>
-      <SkillItem><strong>Compiled Low-level Languages:</strong> C, C++, Java, Rust </SkillItem>
+      <SkillItem><strong>Compiled Low-level Languages:</strong> C, C++, Java, Go, Rust </SkillItem>
       <SkillItem><strong>Interpreted High-level Languages:</strong> Ruby, JavaScript, TypeScript, Python, PHP </SkillItem>
       <SkillItem><strong>Relational Databases:</strong> MySQL, PostgreSQL </SkillItem>
       <SkillItem><strong>Non-relational Databases:</strong> MongoDB, Redis </SkillItem>
