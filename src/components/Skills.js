@@ -1,25 +1,10 @@
 import React from 'react';
-import styled from 'styled-components';
-import { containerStyles } from '../styles/shared';
-
-const SkillsContainer = styled.div`
-  ${containerStyles}
-`;
-
-const Title = styled.h2`
-  border-bottom: 2px solid #000;
-  padding-bottom: 5px;
-`;
-
-const SkillList = styled.dl`
-  list-style-type: none;
-  padding: 0;
-  margin-bottom: 20px;
-`;
-
-const SkillItem = styled.dt`
-  margin-bottom: 10px;
-`;
+import {
+  SkillsContainer,
+  Title,
+  SkillList,
+  SkillItem
+} from '../styles/components/SkillsStyles';
 
 const Skills = () => (
   <SkillsContainer>

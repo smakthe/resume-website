@@ -1,41 +1,17 @@
 import React from 'react';
-import styled from 'styled-components';
-import { containerStyles } from '../styles/shared';
-
-const CertificationsContainer = styled.div`
-  ${containerStyles}
-`;
-
-const Title = styled.h2`
-  font-size: 24px;
-  border-bottom: 2px solid #000;
-  padding-bottom: 5px;
-  text-align: left;
-
-  @media (max-width: 768px) {
-    font-size: 20px;
-  }
-`;
-
-const CertificationItem = styled.li`
-  font-size: 18px;
-  margin: 5px 0;
-  @media (max-width: 768px) {
-    font-size: 16px;
-  }
-`;
-
-
-const CertificationList = styled.ul`
-  list-style-type: none;
-  padding: 0;
-`;
+import {
+  CertificationsContainer,
+  Title,
+  CertificationItem,
+  CertificationList,
+  CertificationListContainer
+} from '../styles/components/CertificationsStyles';
 
 const Certifications = () => {
   return (
     <CertificationsContainer>
       <Title>Certifications</Title>
-      <div className="certification-list">
+      <CertificationListContainer className="certification-list">
         <CertificationList>
           <CertificationItem>
             <a 
@@ -58,7 +34,7 @@ const Certifications = () => {
             </a>
           </CertificationItem>
         </CertificationList>
-      </div>
+      </CertificationListContainer>
     </CertificationsContainer>
   );
 };

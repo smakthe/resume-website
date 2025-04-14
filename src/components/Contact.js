@@ -1,48 +1,21 @@
 import React from 'react';
-import styled from 'styled-components';
 import 'react-social-icons/github'
 import 'react-social-icons/linkedin'
 import { SocialIcon } from 'react-social-icons'
-import { containerStyles } from '../styles/shared';
-
-
-
-const ContactContainer = styled.div`
-  ${containerStyles}
-`;
-
-const Title = styled.h2`
-  border-bottom: 2px solid #000;
-  padding-bottom: 5px;
-
-  @media (max-width: 768px) {
-    font-size: 20px;
-  }
-`;
-
-const ContactText = styled.span`
-  font-size: 16px;
-
-  @media (max-width: 768px) {
-    font-size: 14px;
-  }
-`;
-
-const ContactInfo = styled.div`
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-`;
-
-const Icon = styled.span`
-  margin-right: 10px;
-  font-size: 18px;
-`;
+import {
+  ContactContainer,
+  Title,
+  ContactText,
+  ContactInfo,
+  Icon,
+  FooterContainer,
+  SocialIconContainer
+} from '../styles/components/ContactStyles';
 
 
 const Contact = () => {
   return (
-    <footer>
+    <FooterContainer>
       <ContactContainer>
         <Title>Contact</Title>
         <ContactInfo>
@@ -57,10 +30,12 @@ const Contact = () => {
           <Icon>📍</Icon>
           <ContactText>Bengaluru, KA, India</ContactText>
         </ContactInfo>
-        <Icon><SocialIcon target="_blank" url="https://github.com/smakthe"/></Icon>
-        <Icon><SocialIcon target="_blank" url="https://www.linkedin.com/in/scmakra99"/></Icon>
+        <SocialIconContainer>
+          <SocialIcon target="_blank" url="https://github.com/smakthe"/>
+          <SocialIcon target="_blank" url="https://www.linkedin.com/in/scmakra99"/>
+        </SocialIconContainer>
       </ContactContainer>
-    </footer>
+    </FooterContainer>
   );
 };
 

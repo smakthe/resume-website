@@ -1,28 +1,11 @@
 import React from 'react';
-import styled from 'styled-components';
-import { containerStyles } from '../styles/shared';
-
-
-const EducationContainer = styled.div`
-  ${containerStyles}
-`;
-
-const Title = styled.h2`
-  border-bottom: 2px solid #000;
-  padding-bottom: 5px;
-`;
-
-const School = styled.div`
-  margin: 20px 0;
-`;
-
-const SchoolName = styled.h3`
-  margin: 0;
-`;
-
-const Degree = styled.p`
-  margin-bottom: 20px;
-`;
+import {
+  EducationContainer,
+  Title,
+  School,
+  SchoolName,
+  Degree
+} from '../styles/components/EducationStyles';
 
 const Education = () => (
   <EducationContainer>

@@ -1,37 +1,14 @@
 import React from 'react';
-import styled from 'styled-components';
-import { containerStyles } from '../styles/shared';
-
-const ProfileDetails = styled.div`
-  ${containerStyles}
-`;
-
-const Name = styled.h1`
-  margin: 0;
-  @media (max-width: 768px) {
-    font-size: 22px;
-  }
-`;
-
-const Title = styled.h2`
-  margin: 5px 0;
-  font-weight: normal;
-
-  @media (max-width: 768px) {
-    font-size: 18px;
-  }
-`;
-
-const Description = styled.p`
-  margin: 10px 0;
-
-  @media (max-width: 768px) {
-    font-size: 14px;
-  }
-`;
+import { 
+  ProfileContainer, 
+  ProfileDetails, 
+  Name, 
+  Title, 
+  Description 
+} from '../styles/components/ProfileStyles';
 
 const Profile = () => (
-  <header className="profile">
+  <ProfileContainer className="profile">
     <ProfileDetails>
       <Name>Somak Chakraborty</Name>
       <Title><h4>Senior Software Engineer</h4></Title>
@@ -41,7 +18,7 @@ const Profile = () => (
         </p>
       </Description>
     </ProfileDetails>
-  </header>
+  </ProfileContainer>
 );
 
 export default Profile;
