@@ -1,0 +1,36 @@
+.skills-container {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: var(--bg-secondary);
+}
+
+.skills-title {
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 5px;
+}
+
+.skill-list {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.skill-item {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .skills-title {
+    font-size: 20px;
+  }
+  
+  .skill-list {
+    margin-bottom: 15px;
+  }
+  
+  .skill-item {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+} 

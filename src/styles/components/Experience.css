@@ -1,0 +1,56 @@
+.experience-container {
+  padding: 20px;
+}
+
+.experience-title {
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 5px;
+}
+
+.job {
+  margin-bottom: 20px;
+}
+
+.job-title {
+  margin: 0;
+}
+
+.job-description {
+  margin: 10px 0 0 20px;
+}
+
+.company {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.job-period {
+  margin: 5px 0;
+  color: #666;
+}
+
+.job-item {
+  margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  .experience-container {
+    padding: 10px;
+  }
+  
+  .experience-title {
+    font-size: 20px;
+  }
+  
+  .job {
+    margin-bottom: 15px;
+  }
+  
+  .job-title {
+    font-size: 18px;
+  }
+  
+  .job-description {
+    margin: 10px 0 0 15px;
+  }
+} 

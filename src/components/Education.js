@@ -1,24 +1,18 @@
 import React from 'react';
-import {
-  EducationContainer,
-  Title,
-  School,
-  SchoolName,
-  Degree
-} from '../styles/components/EducationStyles';
+import '../styles/components/Education.css';
 
 const Education = () => (
-  <EducationContainer>
-    <Title>Education</Title>
-    <School>
-      <SchoolName><strong>Banaras Hindu University</strong></SchoolName>
-      <Degree>Master of Science (<abbr title="Master of Science">MSc</abbr>) in Computer Science (2015 - 2017)</Degree>
-    </School>
-    <School>
-      <SchoolName><strong>Calcutta University</strong></SchoolName>
-      <Degree>Bachelor of Science (<abbr title="Bachelor of Science">BSc</abbr>) in Computer Science (2012 - 2015)</Degree>
-    </School>
-  </EducationContainer>
+  <div className="education-container">
+    <h2 className="education-title">Education</h2>
+    <div className="school">
+      <h3 className="school-name"><strong>Banaras Hindu University</strong></h3>
+      <p className="degree">Master of Science (<abbr title="Master of Science">MSc</abbr>) in Computer Science (2015 - 2017)</p>
+    </div>
+    <div className="school">
+      <h3 className="school-name"><strong>Calcutta University</strong></h3>
+      <p className="degree">Bachelor of Science (<abbr title="Bachelor of Science">BSc</abbr>) in Computer Science (2012 - 2015)</p>
+    </div>
+  </div>
 );
 
 export default Education;

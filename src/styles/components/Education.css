@@ -1,0 +1,42 @@
+.education-container {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: var(--bg-secondary);
+}
+
+.education-title {
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 5px;
+}
+
+.school {
+  margin: 20px 0;
+}
+
+.school-name {
+  margin: 0;
+}
+
+.degree {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .education-title {
+    font-size: 20px;
+  }
+  
+  .school {
+    margin: 15px 0;
+  }
+  
+  .school-name {
+    font-size: 18px;
+  }
+  
+  .degree {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+} 

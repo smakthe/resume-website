@@ -1,19 +1,13 @@
 import React from 'react';
-import {
-  CertificationsContainer,
-  Title,
-  CertificationItem,
-  CertificationList,
-  CertificationListContainer
-} from '../styles/components/CertificationsStyles';
+import '../styles/components/Certifications.css';
 
 const Certifications = () => {
   return (
-    <CertificationsContainer>
-      <Title>Certifications</Title>
-      <CertificationListContainer className="certification-list">
-        <CertificationList>
-          <CertificationItem>
+    <div className="certifications-container">
+      <h2 className="certifications-title">Certifications</h2>
+      <div className="certification-list-container">
+        <ul className="certification-list">
+          <li className="certification-item">
             <a 
               href="https://cutshort.io/certificate/6270"
               aria-label="Cutshort Certified JavaScript Basic"
@@ -22,8 +16,8 @@ const Certifications = () => {
             >
               Cutshort Certified JavaScript Basic
             </a>
-          </CertificationItem>
-          <CertificationItem>
+          </li>
+          <li className="certification-item">
             <a 
               href="https://cutshort.io/certificate/6269"
               aria-label="Cutshort Certified Ruby Basic"
@@ -32,10 +26,10 @@ const Certifications = () => {
             >
               Cutshort Certified Ruby Basic
             </a>
-          </CertificationItem>
-        </CertificationList>
-      </CertificationListContainer>
-    </CertificationsContainer>
+          </li>
+        </ul>
+      </div>
+    </div>
   );
 };
 

@@ -12,6 +12,13 @@ code {
     monospace;
 }
 
+:root {
+  --bg-secondary: var(--column-background-light);
+  --text-color: var(--text-color-light);
+  --border-color: var(--border-color-light);
+  --hover-color: var(--hover-color-light);
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #121212;
