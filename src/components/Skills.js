@@ -15,7 +15,7 @@ const Skills = () => (
       <SkillItem><strong>Relational Databases:</strong> MySQL, PostgreSQL </SkillItem>
       <SkillItem><strong>Non-relational Databases:</strong> MongoDB, Redis </SkillItem>
       <SkillItem><strong>MVC Frameworks:</strong> Ruby on Rails, MERN stack </SkillItem>
-      <SkillItem><strong>Meta-Frameworks and Libraries:</strong> Next.js, Sveltte, Qwik.js </SkillItem>
+      <SkillItem><strong>Meta-Frameworks and Libraries:</strong> Next.js, Svelte, Qwik.js </SkillItem>
       <SkillItem><strong>AWS Technologies:</strong> S3, EC2, Lambda, DynamoDB, SNS, SQS, Cognito </SkillItem>
       <SkillItem><strong>CI/CD:</strong> Git, GitHub, GitHub Action </SkillItem>
       <SkillItem><strong>DevOps:</strong> Shell Script, Docker, Kubernetes, Airflow, Ansible </SkillItem>
