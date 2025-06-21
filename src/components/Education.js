@@ -20,7 +20,7 @@ const Education = () => (
     </School>
     <School>
       <SchoolName>
-        <strong>Calcutta University</strong>
+        <strong>University of Calcutta</strong>
       </SchoolName>
       <Degree>
         Bachelor of Science (<abbr title="Bachelor of Science">BSc</abbr>) in

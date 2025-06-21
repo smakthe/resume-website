@@ -38,7 +38,7 @@ const Experience = () => (
       </JobDescription>
     </Job>
     <Job>
-      <JobTitle>Software Engineer</JobTitle>
+      <JobTitle>Software Engineer II</JobTitle>
       <Company>Indium Software</Company>
       <JobPeriod>05/2021 - 08/2022 (Full Time)</JobPeriod>
       <JobDescription>
