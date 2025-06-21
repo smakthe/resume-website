@@ -1,7 +1,6 @@
-import React from 'react';
-import 'react-social-icons/github'
-import 'react-social-icons/linkedin'
-import { SocialIcon } from 'react-social-icons'
+import "react-social-icons/github";
+import "react-social-icons/linkedin";
+import { SocialIcon } from "react-social-icons";
 import {
   ContactContainer,
   Title,
@@ -9,9 +8,8 @@ import {
   ContactInfo,
   Icon,
   FooterContainer,
-  SocialIconContainer
-} from '../styles/components/ContactStyles';
-
+  SocialIconContainer,
+} from "../styles/components/ContactStyles";
 
 const Contact = () => {
   return (
@@ -31,8 +29,11 @@ const Contact = () => {
           <ContactText>Bengaluru, KA, India</ContactText>
         </ContactInfo>
         <SocialIconContainer>
-          <SocialIcon target="_blank" url="https://github.com/smakthe"/>
-          <SocialIcon target="_blank" url="https://www.linkedin.com/in/scmakra99"/>
+          <SocialIcon target="_blank" url="https://github.com/smakthe" />
+          <SocialIcon
+            target="_blank"
+            url="https://www.linkedin.com/in/scmakra99"
+          />
         </SocialIconContainer>
       </ContactContainer>
     </FooterContainer>

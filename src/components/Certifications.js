@@ -1,11 +1,10 @@
-import React from 'react';
 import {
   CertificationsContainer,
   Title,
   CertificationItem,
   CertificationList,
-  CertificationListContainer
-} from '../styles/components/CertificationsStyles';
+  CertificationListContainer,
+} from "../styles/components/CertificationsStyles";
 
 const Certifications = () => {
   return (
@@ -14,7 +13,7 @@ const Certifications = () => {
       <CertificationListContainer className="certification-list">
         <CertificationList>
           <CertificationItem>
-            <a 
+            <a
               href="https://cutshort.io/certificate/6270"
               aria-label="Cutshort Certified JavaScript Basic"
               target="_blank"
@@ -24,7 +23,7 @@ const Certifications = () => {
             </a>
           </CertificationItem>
           <CertificationItem>
-            <a 
+            <a
               href="https://cutshort.io/certificate/6269"
               aria-label="Cutshort Certified Ruby Basic"
               target="_blank"
